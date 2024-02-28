@@ -1,0 +1,50 @@
+.reportCard{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    width: 60rem;
+    gap: 2rem;
+}
+.reportCard .user{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 15px;
+    width: 40%;
+    background-color:#1D204B;
+}
+.reportCard .user .info{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #5746EC;
+}
+.reportCard .user .info img{
+    width: 4rem;
+    border-radius: 50%;
+    margin-bottom: 1.75rem;
+}
+.reportCard .user .info p{
+    color: rgb(177, 177, 177);
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.reportCard .user .info h2{
+    font-weight: 400;
+    margin-top: 0;
+}
+.reportCard .user .cardType{
+    padding: 2rem;
+}
+.reportCard .user .cardType p{
+    color: rgb(177, 177, 177);
+    cursor: default;
+}
+.reportCard .user .cardType p.clicked{
+    color: white;
+}
+.reportCard .activities{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
